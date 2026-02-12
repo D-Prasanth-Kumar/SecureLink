@@ -5,7 +5,7 @@ import { generateKey, exportKey, encryptData, decryptData, importKey } from './c
 import { Lock, Shield, ShieldAlert, ShieldX, CheckCircle, AlertTriangle, ShieldCheck, FileText, ArrowRight, Flame, RefreshCw } from 'lucide-react';
 
 // Automatically detect IP for mobile sharing
-const API_URL = `http://${window.location.hostname}:8080/api`;
+const API_URL = `https://${window.location.hostname}:8080/api`;
 
 function App() {
   const [view, setView] = useState('create');
